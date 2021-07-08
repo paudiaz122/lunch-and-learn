@@ -5,6 +5,7 @@ const factorial = (n) => {
     return factorial(n - 1) * n;
 }
 
+console.log('Factorial 4: ', factorial(5));
 console.log('Factorial 5: ', factorial(5));
 console.log('Factorial 6: ', factorial(6));
 console.log('Factorial 7: ', factorial(7));
