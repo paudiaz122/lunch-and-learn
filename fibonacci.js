@@ -5,4 +5,6 @@ const fibonacci = (num) => {
     return fibonacci(num - 2) + fibonacci(num - 1);
 }
 
-console.log('Fibonacci: ', fibonacci(10));
+console.log('Fibonacci 10: ', fibonacci(10));
+console.log('Fibonacci 15: ', fibonacci(15));
+console.log('Fibonacci 20: ', fibonacci(20));
